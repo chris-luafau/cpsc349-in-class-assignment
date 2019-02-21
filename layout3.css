@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#nav-articles {
+  order: -1;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+
+  background-color: green;
+}
+
+.main-header {
+  flex-direction: row;
+  background-color: blue;
+  align-items: stretch;
+}
+
+.main-footer {
+  flex-direction: row;
+  order: 3;
+  background-color: red;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  order: 2;
+  background-color: pink;
+
+}

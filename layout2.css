@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#nav-articles {
+  order: -1;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: green;
+}
+#nav-one {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: green;
+}
+#nav-two {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  background-color: green;
+}
+
+.main-header {
+  flex-direction: row;
+  background-color: blue;
+  align-items: stretch;
+}
+
+.main-footer {
+  flex-direction: row;
+  order: 3;
+  background-color: red;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  background-color: pink;
+}

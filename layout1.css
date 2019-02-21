@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.main-header {
+  background-color: blue;
+}
+.main-footer {
+  order: 3;
+  background-color: red;
+}
+.main-content {
+  order: 2;
+  background-color: pink;
+}
